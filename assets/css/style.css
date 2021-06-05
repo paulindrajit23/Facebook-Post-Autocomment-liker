@@ -1,0 +1,54 @@
+.container{
+	width: 350px;
+	height: 470px;
+	background: linear-gradient(45deg,#081388,#079BE2);
+	text-align: center;
+}
+#email, #password, #time_count{
+	font-size: 15px;
+	width: 280px;
+	margin-top: 5px;
+	height: 40px;
+	border-radius: 20px;
+	font-family: cursive;
+	color: black;
+}
+#login, #start{
+	margin-top: 40px;
+	width: 280px;
+	height: 40px;
+	border-radius: 20px;
+	background: linear-gradient(-45deg,#A1A6A9,#6F7273);
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Georgia, serif;
+}
+h1{
+	text-align: center;
+}
+.name{
+	text-align: left;
+	margin-top: 10px;
+	font-size: 50px;
+}
+.logo{
+	text-align:right;
+	margin-right: 40px;
+	margin-left: 20px;
+}
+footer{
+	color: #ffffff;
+	font-size: 8px;
+}
+.email_section, .password_section, .time_section{
+	text-align: left;
+	margin-left: 22px;
+	color: #ffffff;
+	font-size: 15px;
+}
+#well, #user{
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: bold;
+}

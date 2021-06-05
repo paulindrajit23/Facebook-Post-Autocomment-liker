@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href=".\assets\css\style.css">
+  <script type="text/javascript" src="\assets\js\jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+  	<div class="container" id="login_section">
+        <div class="row">
+            <div class="col-sm-4"> 
+                <img src="/images/logo.png" height="125px" width="325px">
+            </div>
+        </div>
+        <form>
+            <div class="email_section">
+                <label>Enter your user Id</label>
+                <input type="email" id="email" placeholder="Please Enter Your user Id" autocomplete="off">
+                <p id="email_error"></p>
+            </div>
+            <div class="password_section">
+               <label>Enter your Password</label>
+               <input type="password" id="password" placeholder="Please Enter Your Password">
+               <p id="password_error"></p>
+            </div>
+            <div>
+                 <input type="submit" name="submit" value="Log in" id="login">
+            </div>
+    </form>
+    <footer>
+        <p>Develop by Indrajit Paul&#169;Indrajit Paul</p>
+    </footer>  
+  </div>
+ <div class="container" id="time_section">
+        <div class="head">
+            <div class="logo"> 
+                <img src="/images/logo.png" height="125px" width="325px">
+            </div>
+        </div>
+        <div>
+            <p id="well">-:Wellcome:-</p>
+            <p id="user"></p>
+        </div>
+    <form action="popup.html" method="GET" id="time">
+            <div class="time_section">
+                <label>Select Time </label>
+                     <select id="time_count">
+                         <option value=" ">already selected:</option>
+                             <option value="11000" >11 Sec.</option>
+                             <option value="18000" >18 Sec.</option>
+                             <option value="30000">30 Sec.</option>
+                             <option value="60000">1 Mins.</option>
+                             <option value="180000">3 Mins.</option>
+                             <option value="300000">5 Mins.</option>
+                             <option value="600000">10 Mins.</option>
+                             <option value="900000">15 Mins.</option>
+                     </select>
+                <p id="time_error"></p>
+            </div>
+            <div>
+                 <input type="submit" name="submit" value="Start" id="start">
+                 
+            </div>
+    </form>
+    <footer>
+        <p>Develop by Indrajit Paul&#169;Indrajit Paul</p>
+    </footer>  
+  </div>
+ </body>
+ <script src="popup.js"></script>
+</html>
